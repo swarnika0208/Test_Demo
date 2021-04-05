@@ -1,0 +1,5 @@
+[credential "https://source.developers.google.com"]
+	helper = gcloud.cmd
+[user]
+	email = swarnikasarangi149@gmail.com
+	name = swarnikasarangi149
