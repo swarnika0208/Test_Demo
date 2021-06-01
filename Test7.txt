@@ -1,1 +1,18 @@
-This is Test7. Inside main branch for checking.
+{"mode":"NULLABLE","name":"URI","type":"STRING"}
+{"mode":"NULLABLE","name":"ReltioGoldenID","type":"STRING"}
+{"mode":"NULLABLE","name":"updatedTime","type":"TIMESTAMP"}
+{"mode":"NULLABLE","name":"eventTime","type":"TIMESTAMP"}
+{"mode":"NULLABLE","name":"XwalkID","type":"STRING"}
+{"mode":"NULLABLE","name":"SourceSystem","type":"STRING"}
+{"mode":"NULLABLE","name":"SourceTable","type":"INTEGER"}
+{"mode":"NULLABLE","name":"IsValid","type":"BOOLEAN"}
+{"mode":"NULLABLE","name":"Timestamp","type":"TIMESTAMP"}
+{"mode":"NULLABLE","name":"RuleId","type":"STRING"}
+{"mode":"NULLABLE","name":"RuleDescription","type":"STRING"}
+{"mode":"NULLABLE","name":"RuleSeverity","type":"STRING"}
+{"mode":"NULLABLE","name":"BlockBFO","type":"BOOLEAN"}
+{"mode":"NULLABLE","name":"RuleCategory","type":"STRING"}
+{
+    "query": "SELECT URI FROM `reltio-analytics-schneider.Analytics_geu_dev_swarnika.Test_Organisation_1` WHERE BlockBFO=TRUE LIMIT 1000\r\n\r\n",
+    "useLegacySql": false
+  }
