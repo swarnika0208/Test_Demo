@@ -1,18 +1,97 @@
-{"mode":"NULLABLE","name":"URI","type":"STRING"}
-{"mode":"NULLABLE","name":"ReltioGoldenID","type":"STRING"}
-{"mode":"NULLABLE","name":"updatedTime","type":"TIMESTAMP"}
-{"mode":"NULLABLE","name":"eventTime","type":"TIMESTAMP"}
-{"mode":"NULLABLE","name":"XwalkID","type":"STRING"}
-{"mode":"NULLABLE","name":"SourceSystem","type":"STRING"}
-{"mode":"NULLABLE","name":"SourceTable","type":"INTEGER"}
-{"mode":"NULLABLE","name":"IsValid","type":"BOOLEAN"}
-{"mode":"NULLABLE","name":"Timestamp","type":"TIMESTAMP"}
-{"mode":"NULLABLE","name":"RuleId","type":"STRING"}
-{"mode":"NULLABLE","name":"RuleDescription","type":"STRING"}
-{"mode":"NULLABLE","name":"RuleSeverity","type":"STRING"}
-{"mode":"NULLABLE","name":"BlockBFO","type":"BOOLEAN"}
-{"mode":"NULLABLE","name":"RuleCategory","type":"STRING"}
 {
-    "query": "SELECT URI FROM `reltio-analytics-schneider.Analytics_geu_dev_swarnika.Test_Organisation_1` WHERE BlockBFO=TRUE LIMIT 1000\r\n\r\n",
+  "creationTime": "1616402283571",
+  "etag": "+EbHf94N6A+cyALljC/J5A==",
+  "id": "reltio-analytics-schneider:Analytics_geu_dev_swarnika.Test_Organisation_2",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1616402283645",
+  "location": "US",
+  "numBytes": "0",
+  "numLongTermBytes": "0",
+  "numRows": "0",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "URI",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ReltioGoldenID",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "updatedTime",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "eventTime",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "XwalkID",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "SourceSystem",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "SourceTable",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "IsValid",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "Timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "RuleId",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "RuleDescription",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "RuleSeverity",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "BlockBFO",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "RuleCategory",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/reltio-analytics-schneider/datasets/Analytics_geu_dev_swarnika/tables/Test_Organisation_2",
+  "tableReference": {
+    "datasetId": "Analytics_geu_dev_swarnika",
+    "projectId": "reltio-analytics-schneider",
+    "tableId": "Test_Organisation_2"
+  },
+  "type": "VIEW",
+  "view": {
+    "query": "SELECT * FROM `reltio-analytics-schneider.Analytics_geu_dev_swarnika.Test_Organisation_1` WHERE BlockBFO=TRUE LIMIT 10\r\n\r\n",
     "useLegacySql": false
   }
+}
+
